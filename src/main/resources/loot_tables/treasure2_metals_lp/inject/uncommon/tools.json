@@ -1,0 +1,18 @@
+{
+	"version": "1.0",
+	"categories": ["general"],
+	"pools": [
+		{
+			"name": "sgs_metals_scarce_tools",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "bone_sword",
+					"type": "item",
+					"name": "sgs_metals:bone_sword",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

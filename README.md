@@ -1,2 +1,2 @@
 # gottsch-minecraft-Treasure-MoCreatures-Loot-Pack
-Mo'Creatures Loot Tables addon for Treasure2!
+An addon of Mo'Creatures loot items for Treasure2!
