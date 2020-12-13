@@ -7,7 +7,7 @@ import com.someguyssoftware.gottschcore.mod.IMod;
 import com.someguyssoftware.gottschcore.world.WorldInfo;
 import com.someguyssoftware.treasure2.Treasure;
 import com.someguyssoftware.treasure2.loot.TreasureLootTableRegistry;
-import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMetalsLP;
+import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMoCreaturesLP;
 
 import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.fml.common.Loader;
@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 /**
  * 
- * @author Mark Gottschling on Dec 3, 2020
+ * @author Mark Gottschling on Dec 11, 2020
  *
  */
 public class WorldEventHandler {
@@ -36,7 +36,7 @@ public class WorldEventHandler {
 
 	@SubscribeEvent(priority = EventPriority.LOW)
 	public void onWorldLoad(WorldEvent.Load event) {
-        Treasure.logger.debug("[TMLP] Loading world event...");
+        Treasure.logger.debug("[TMoCLP] Loading world event...");
         
         if (!getMod().getConfig().isModEnabled()) {
 			return;

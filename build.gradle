@@ -45,7 +45,7 @@ sourceSets.main{
 }
 
 def gottschcore_path="../gottsch-minecraft-GottschCore/GottschCore${mc_version}/build/libs/GottschCore-mc${mc_version}-f${forge_version}-v${gottschcore_version}.jar"
-def treasure2_path="../gottsch-minecraft-Treasure/build/libs/Treasure2-mc${mc_version}-f${forge_version}-v${treasure2_version}.jar"
+def treasure2_path="../Treasure/build/libs/Treasure2-mc${mc_version}-f${forge_version}-v${treasure2_version}.jar"
 println treasure2_path
 dependencies {
 	compile files(gottschcore_path)

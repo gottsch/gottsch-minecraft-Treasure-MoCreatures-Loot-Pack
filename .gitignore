@@ -2,6 +2,8 @@
 gradle.log
 !/src/
 !.gitignore
+!.project
+!.classpath
 !gradlew*
 !/gradle/
 !/LICENSE.txt

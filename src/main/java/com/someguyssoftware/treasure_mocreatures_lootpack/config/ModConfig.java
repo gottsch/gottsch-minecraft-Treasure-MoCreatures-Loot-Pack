@@ -5,7 +5,7 @@ package com.someguyssoftware.treasure_mocreatures_lootpack.config;
 
 
 import com.someguyssoftware.gottschcore.config.IConfig;
-import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMetalsLP;
+import com.someguyssoftware.treasure_mocreatures_lootpack.TreasureMoCreaturesLP;
 
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.Config.Comment;
@@ -23,7 +23,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
  * @author Mark Gottschling on Dec 4, 2020
  *
  */
-@Config(modid = TreasureMetalsLP.MODID, name = TreasureMetalsLP.MODID + "/" + TreasureMetalsLP.MODID + "-"
+@Config(modid = TreasureMoCreaturesLP.MODID, name = TreasureMoCreaturesLP.MODID + "/" + TreasureMoCreaturesLP.MODID + "-"
 		+ ModConfig.CONFIG_VERSION, type = Type.INSTANCE)
 public class ModConfig implements IConfig {
 	@Ignore
@@ -70,8 +70,8 @@ public class ModConfig implements IConfig {
 		 */
 		@SubscribeEvent
 		public static void onConfigChanged(final ConfigChangedEvent.OnConfigChangedEvent event) {
-			if (event.getModID().equals(TreasureMetalsLP.MODID)) {
-				ConfigManager.sync(TreasureMetalsLP.MODID, Config.Type.INSTANCE);
+			if (event.getModID().equals(TreasureMoCreaturesLP.MODID)) {
+				ConfigManager.sync(TreasureMoCreaturesLP.MODID, Config.Type.INSTANCE);
 			}
 		}
     }

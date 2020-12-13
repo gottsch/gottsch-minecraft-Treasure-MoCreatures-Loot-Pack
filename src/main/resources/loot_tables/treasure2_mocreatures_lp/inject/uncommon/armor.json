@@ -1,0 +1,40 @@
+	{
+	"version": "1.0",
+	"categories": ["general","armor"],
+	"pools": [
+		{
+			"name": "mo_uncommon_armor",
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"bonus_rolls": 0.5,
+			"entries": [
+				{
+					"entryName": "reptileplate",
+					"type": "item",
+					"name": "mocreatures:reptileplate",
+					"weight": 1
+				},
+				{
+					"entryName": "reptilelegs",
+					"type": "item",
+					"name": "mocreatures:reptilelegs",
+					"weight": 2
+				},
+				{
+					"entryName": "reptilehelmet",
+					"type": "item",
+					"name": "mocreatures:reptilehelmet",
+					"weight": 2
+				},
+				{
+					"entryName": "reptileboots",
+					"type": "item",
+					"name": "mocreatures:reptileboots",
+					"weight": 2
+				}
+			]
+		}
+	]
+}
