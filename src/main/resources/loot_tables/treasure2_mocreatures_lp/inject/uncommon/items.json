@@ -13,7 +13,7 @@
 					"entryName": "sharkteeth",
 					"type": "item",
 					"name": "mocreatures:sharkteeth",
-					"weight": 1,
+					"weight": 100,
 					"functions": [
 						{
 							"function": "set_count",
@@ -28,43 +28,43 @@
 					"entryName": "mammothplatform",
 					"type": "item",
 					"name": "mocreatures:mammothplatform",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "scorp3",
 					"type": "item",
 					"name": "mocreatures:scorpstingfrost",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "scorp4",
 					"type": "item",
 					"name": "mocreatures:scorpstingnether",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "chitin3",
 					"type": "item",
 					"name": "mocreatures:chitinfrost",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "chitin4",
 					"type": "item",
 					"name": "mocreatures:chitinnether",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "horsesaddle",
 					"type": "item",
 					"name": "mocreatures:horsesaddle",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "reptilehide",
 					"type": "item",
 					"name": "mocreatures:reptilehide",
-					"weight": 1,
+					"weight": 100,
 					"functions": [
 						{
 							"function": "set_count",
@@ -79,7 +79,7 @@
 					"entryName": "petamulet",
 					"type": "item",
 					"name": "mocreatures:petamulet",
-					"weight": 1,
+					"weight": 100,
 					"conditions": [
 						{
 							"condition": "random_chance",

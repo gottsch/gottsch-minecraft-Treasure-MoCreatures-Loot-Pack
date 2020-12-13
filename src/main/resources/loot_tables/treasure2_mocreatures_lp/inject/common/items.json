@@ -15,25 +15,25 @@
 					"entryName": "elephanthowdah",
 					"type": "item",
 					"name": "mocreatures:elephanthowdah",
-					"weight": 1
+					"weight": 35
 				},
 				{
 					"entryName": "elephantharness",
 					"type": "item",
 					"name": "mocreatures:elephantharness",
-					"weight": 1
+					"weight": 35
 				},
 				{
 					"entryName": "elephantchest",
 					"type": "item",
 					"name": "mocreatures:elephantchest",
-					"weight": 1
+					"weight": 35
 				},
 				{
 					"entryName": "scorp1",
 					"type": "item",
 					"name": "mocreatures:scorpstingdirt",
-					"weight": 2,
+					"weight": 65,
 					"functions": [
 						{
 							"function": "set_count",
@@ -48,7 +48,7 @@
 					"entryName": "scorp2",
 					"type": "item",
 					"name": "mocreatures:scorpstingcave",
-					"weight": 2,
+					"weight": 65,
 					"functions": [
 						{
 							"function": "set_count",
@@ -63,19 +63,19 @@
 					"entryName": "chitin1",
 					"type": "item",
 					"name": "mocreatures:chitin",
-					"weight": 2
+					"weight": 65
 				},
 				{
 					"entryName": "chitin2",
 					"type": "item",
 					"name": "mocreatures:chitinblack",
-					"weight": 2
+					"weight": 65
 				},
 				{
 					"entryName": "hide",
 					"type": "item",
 					"name": "mocreatures:hide",
-					"weight": 3,
+					"weight": 100,
 					"functions": [
 						{
 							"function": "set_count",
@@ -90,7 +90,7 @@
 					"entryName": "fur",
 					"type": "item",
 					"name": "mocreatures:fur",
-					"weight": 3,
+					"weight": 100,
 					"functions": [
 						{
 							"function": "set_count",
@@ -105,7 +105,7 @@
 					"entryName": "woolball",
 					"type": "item",
 					"name": "mocreatures:woolball",
-					"weight": 1
+					"weight": 35
 				}
 			]
 		}

@@ -16,25 +16,25 @@
 					"entryName": "essencedarkness",
 					"type": "item",
 					"name": "mocreatures:essencedarkness",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "essencefire",
 					"type": "item",
 					"name": "mocreatures:essencefire",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "essenceundead",
 					"type": "item",
 					"name": "mocreatures:essenceundead",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "essencelight",
 					"type": "item",
 					"name": "mocreatures:essencelight",
-					"weight": 1,
+					"weight": 100,
 					"conditions": [
 						{
 							"condition": "random_chance",
@@ -46,7 +46,7 @@
 					"entryName": "amuletghost",
 					"type": "item",
 					"name": "mocreatures:amuletghost",
-					"weight": 1,
+					"weight": 100,
 					"conditions": [
 						{
 							"condition": "random_chance",
@@ -58,7 +58,7 @@
 					"entryName": "staffportal",
 					"type": "item",
 					"name": "mocreatures:staffportal",
-					"weight": 1,
+					"weight": 100,
 					"conditions": [
 						{
 							"condition": "random_chance",

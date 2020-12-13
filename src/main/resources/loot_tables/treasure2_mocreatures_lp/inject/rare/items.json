@@ -16,31 +16,31 @@
 					"entryName": "unicornhorn",
 					"type": "item",
 					"name": "mocreatures:unicornhorn",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "heartdarkness",
 					"type": "item",
 					"name": "mocreatures:heartdarkness",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "heartfire",
 					"type": "item",
 					"name": "mocreatures:heartfire",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "heartundead",
 					"type": "item",
 					"name": "mocreatures:heartundead",
-					"weight": 1
+					"weight": 100
 				},
 				{
 					"entryName": "amuletghost",
 					"type": "item",
 					"name": "mocreatures:amuletghost",
-					"weight": 1,
+					"weight": 100,
 					"conditions": [
 						{
 							"condition": "random_chance",

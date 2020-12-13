@@ -14,25 +14,25 @@
 					"entryName": "reptileplate",
 					"type": "item",
 					"name": "mocreatures:reptileplate",
-					"weight": 1
+					"weight": 50
 				},
 				{
 					"entryName": "reptilelegs",
 					"type": "item",
 					"name": "mocreatures:reptilelegs",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "reptilehelmet",
 					"type": "item",
 					"name": "mocreatures:reptilehelmet",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "reptileboots",
 					"type": "item",
 					"name": "mocreatures:reptileboots",
-					"weight": 2
+					"weight": 100
 				}
 			]
 		}

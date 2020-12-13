@@ -17,49 +17,49 @@
 					"entryName": "furchest",
 					"type": "item",
 					"name": "mocreatures:furchest",
-					"weight": 1
+					"weight": 50
 				},
 				{
 					"entryName": "furlegs",
 					"type": "item",
 					"name": "mocreatures:furlegs",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "furhelmet",
 					"type": "item",
 					"name": "mocreatures:furhelmet",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "furboots",
 					"type": "item",
 					"name": "mocreatures:furboots",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "hidechest",
 					"type": "item",
 					"name": "mocreatures:hidechest",
-					"weight": 1
+					"weight": 50
 				},
 				{
 					"entryName": "hidelegs",
 					"type": "item",
 					"name": "mocreatures:hidelegs",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "hidehelmet",
 					"type": "item",
 					"name": "mocreatures:hidehelmet",
-					"weight": 2
+					"weight": 100
 				},
 				{
 					"entryName": "hideboots",
 					"type": "item",
 					"name": "mocreatures:hideboots",
-					"weight": 2
+					"weight": 100
 				}
 			]
 		}
