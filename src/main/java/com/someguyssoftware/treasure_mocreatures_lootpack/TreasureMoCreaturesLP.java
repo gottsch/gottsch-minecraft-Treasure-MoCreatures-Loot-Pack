@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = TreasureMoCreaturesLP.MODID, 
 name = TreasureMoCreaturesLP.NAME, 
 version = TreasureMoCreaturesLP.VERSION, 
-dependencies = "required-after:gottschcore@[1.13.0,);required-after:treasure2@[1.14.0,);required-after:mocreatures@[12.0.3,)", 
+dependencies = "required-after:gottschcore@[1.14.0,);required-after:treasure2@[1.14.0,);required-after:mocreatures@[12.0.3,)", 
 acceptedMinecraftVersions = "[1.12.2]", 
 updateJSON = TreasureMoCreaturesLP.UPDATE_JSON_URL)
 @Credits(values = { "Treasure2: Mo'Creatures Loot Pack was first developed by Mark Gottschling on Dec 11, 2020."})
