@@ -56,13 +56,13 @@ minecraft {
     }
 }
 
-def gottschcore_path="../gottsch-minecraft-GottschCore/GottschCore${mc_version}/build/libs/GottschCore-mc${mc_version}-f${forge_version}-v${gottschcore_version}.jar"
+def gottschcore_path="../GottschCore/build/libs/GottschCore-mc${mc_version}-f${gottschcore_forge_version}-v${gottschcore_version}.jar"
 def treasure2_path="../Treasure/build/libs/Treasure2-mc${mc_version}-f${forge_version}-v${treasure2_version}.jar"
 println gottschcore_path
 println treasure2_path
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2859'
     compile files(gottschcore_path)
 	compile files(treasure2_path)
 }
@@ -92,26 +92,26 @@ jar.finalizedBy('reobfJar')
 def destinations = ["${dest_folder}", "${dest_server_folder}"]
 println destinations[0]
 
-task deleteOldJar(type: Delete) {
-        delete fileTree("${dest_folder}") {
-            include "**/${mod_name}-*.*"
+//task deleteOldJar(type: Delete) {
+ //       delete fileTree("${dest_folder}") {
+//            include "**/${mod_name}-*.*"
 
-        }
-        delete fileTree("${dest_server_folder}") {
-            include "**/${mod_name}-*.*"
-        }
-    }
-task copyJar << {
+ //       }
+//        delete fileTree("${dest_server_folder}") {
+//            include "**/${mod_name}-*.*"
+//        }
+//    }
+//task copyJar << {
 	// iterate over the array with destination paths
- 	destinations.each { destination ->
+ //	destinations.each { destination ->
         // for every destination define new CopySpec
-        println destination
-        copy {
-            from jar
-            into destination
-        }
-    }
-}
+ //       println destination
+//        copy {
+//            from jar
+ //           into destination
+ //       }
+//    }
+//}
 
-build.dependsOn copyJar
-copyJar.dependsOn deleteOldJar
+//build.dependsOn copyJar
+//copyJar.dependsOn deleteOldJar

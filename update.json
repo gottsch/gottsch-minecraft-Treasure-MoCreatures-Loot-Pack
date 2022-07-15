@@ -1,10 +1,11 @@
 {
 	"homepage": "https://minecraft.curseforge.com/projects/treasure2-mocreatures-lp",
 	"promos": {
-		"1.12.2-latest": "1.0.0",
-		"1.12.2-recommended": "1.0.0"
+		"1.12.2-latest": "2.0.0",
+		"1.12.2-recommended": "2.0.0"
 	},
 	"1.12.2": {
-		"1.0.0": ""
+		"1.0.0": "",
+		"2.0.0": "Compatible with Treasure2 v2.0.0+"
 	}
 }

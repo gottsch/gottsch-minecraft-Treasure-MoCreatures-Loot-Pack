@@ -1,0 +1,41 @@
+{
+	"supportingResources": [
+
+    ],
+    "injectResources": [
+		"inject/common/armor",
+		"inject/common/food",
+		"inject/common/items",
+		"inject/uncommon/armor",
+		"inject/uncommon/food",
+		"inject/uncommon/items",
+		"inject/scarce/armor",
+		"inject/scarce/food",
+		"inject/scarce/items",
+		"inject/rare/armor",
+		"inject/rare/items",
+		"inject/epic/items"
+    ],
+	"chestResources": [
+
+	],
+	"specialResources": [
+
+	],
+	"chestLootTableFolderLocations": [
+
+	],
+	"specialLootTableFolderLocations": [
+
+	],
+	"supportingLootTableFolderLocations": [
+
+    ],
+    "injectLootTableFolderLocations": [
+		"inject/common",
+		"inject/uncommon",
+		"inject/scarce",
+		"inject/rare",
+		"inject/epic"
+    ]
+} 

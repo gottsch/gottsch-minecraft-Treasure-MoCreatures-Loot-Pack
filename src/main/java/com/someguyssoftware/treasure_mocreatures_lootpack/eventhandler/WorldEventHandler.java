@@ -36,7 +36,7 @@ public class WorldEventHandler {
 
 	@SubscribeEvent(priority = EventPriority.LOW)
 	public void onWorldLoad(WorldEvent.Load event) {
-        Treasure.logger.debug("[TMoCLP] Loading world event...");
+        Treasure.LOGGER.debug("[TMoCLP] Loading world event...");
         
         if (!getMod().getConfig().isModEnabled()) {
 			return;
@@ -46,8 +46,7 @@ public class WorldEventHandler {
 		 * On load of dimension 0 (overworld), initialize the loot table's context and other static loot tables
 		 */
 		if (WorldInfo.isServerSide(event.getWorld()) && event.getWorld().provider.getDimension() == 0) {
-			// register mod's loot tables with the LootTableMaster
-			TreasureLootTableRegistry.register(mod.getId());
+			//
 		}	
 	}
 	
